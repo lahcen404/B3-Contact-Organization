@@ -1,245 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style-med.css">
-
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact List</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style-med.css">
 </head>
-
 <body>
-    <style>
-        body {
-            background: linear-gradient(90deg, #2cd4d9, #37e27b);
-            margin: 0;
-            height: 100vh;
-        }
-    </style>
-    <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-    <script src="js/popper.min.js"></script>
-    <script src="js/jquery-3.7.1.js"></script>
-    <script src="js/bootstrap.js"></script>
-    
-    <h1>Contact</h1>
-
-    
-
-    <div class="border">
-        <div class="table">
-            <div class="d-flex align-items-stretch">
-                <div class="d-flex flex-row mb-3">
-                    <div class="d-inline-flex p-2">
-                        <div class="list-group">
-                            <button type="button" class="list-group-item list-group-item-action active"
-                                aria-current="true">
-                                Nom
-                            </button>
-                            <button type="button" class="list-group-item list-group-item-action">A third button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A third button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A fourth button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A disabled button
-                            </button>
-                            <button type="button" class="list-group-item list-group-item-action">A second button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A third button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A fourth button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A disabled button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A second button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A third button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A fourth button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A disabled button
-                                item</button>
-                        </div>
-                    </div>
-                    <div class="d-inline-flex p-2">
-                        <div class="list-group">
-                            <button type="button" class="list-group-item list-group-item-action active"
-                                aria-current="true">
-                                Prénom
-                            </button>
-                            <button type="button" class="list-group-item list-group-item-action">A second button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A third button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A fourth button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A disabled button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A second button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A third button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A fourth button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A disabled button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A second button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A third button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A fourth button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A disabled button
-                                item</button>
-
-                        </div>
-                    </div>
-                    <div class="d-inline-flex p-2">
-                        <div class="list-group">
-                            <button type="button" class="list-group-item list-group-item-action active"
-                                aria-current="true">
-                                Email
-                            </button>
-                            <button type="button" class="list-group-item list-group-item-action">A second button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A third button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A fourth button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A disabled button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A second button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A third button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A fourth button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A disabled button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A second button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A third button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A fourth button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A disabled button
-                                item</button>
-                        </div>
-                    </div>
-                    <div class="d-inline-flex p-2">
-                        <div class="list-group">
-                            <button type="button" class="list-group-item list-group-item-action active"
-                                aria-current="true">
-                                Téléphone
-                            </button>
-                            <button type="button" class="list-group-item list-group-item-action">A second button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A third button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A fourth button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A disabled button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A second button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A third button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A fourth button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A disabled button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A second button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A third button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A fourth button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A disabled button
-                                item</button>
-                        </div>
-                    </div>
-                    <div class="d-inline-flex p-2">
-                        <div class="list-group">
-                            <button type="button" class="list-group-item list-group-item-action active"
-                                aria-current="true">
-                                Genre
-                            </button>
-                            <button type="button" class="list-group-item list-group-item-action">A second button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A third button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A fourth button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A disabled button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A second button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A third button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A fourth button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A disabled button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A second button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A third button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A fourth button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A disabled button
-                                item</button>
-                        </div>
-                    </div>
-                    <div class="d-inline-flex p-2">
-                        <div class="list-group">
-                            <button type="button" class="list-group-item list-group-item-action active"
-                                aria-current="true">
-                                Ville
-                            </button>
-                            <button type="button" class="list-group-item list-group-item-action">A second button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A third button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A fourth button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A disabled button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A second button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A third button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A fourth button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A disabled button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A second button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A third button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A fourth button
-                                item</button>
-                            <button type="button" class="list-group-item list-group-item-action">A disabled button
-                                item</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <div class="container my-5 rounded shadow" id="contact-container">
+    <h2 class="text-center py-3" id="contact-title">Contact</h2>
+    <div class="table-responsive">
+      <table class="table table-borderless">
+        <thead>
+          <tr>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Email</th>
+            <th>Téléphone</th>
+            <th>Genre</th>
+            <th>Ville</th>
+          </tr>
+        </thead>
+        <tbody id="contact-table-body">
+          <!-- Dynamic content will be inserted here -->
+        </tbody>
+      </table>
     </div>
-    <div class="container">
+    <div class="text-center my-3">
         <a href="index-lahcen.html" class="btn btn-primary btn-lg">AJOUTER CONTACTS</a>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </div>
+  </div>
 
+  <script src="app-med.js"></script>
 </body>
-
 </html>

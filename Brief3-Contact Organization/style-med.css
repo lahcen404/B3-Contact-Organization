@@ -1,32 +1,52 @@
-.table{
-    padding: 70px; 
-     
-}
-.border{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    height: 1040px;
-    width: 1000px;
-    background-color: aliceblue;
-    border-radius: 25px;
-    margin: 30px auto;
-   
-   
-} 
-.container{
-   display: flex;
-   align-content: center;
-   justify-content: space-around;
-   margin-bottom: 50px;
-
-}
-
-h1{
-    font-family: 'Times New Roman', Times, serif;
-    margin: 15px ;
+/* Global Background */
+body {
+    background: linear-gradient(to bottom right, #5DD6D4, #ACF6E9);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Contact Container */
+  #contact-container {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Title */
+  #contact-title {
+    background: linear-gradient(to right, #43CEA2, #185A9D);
+    color: white;
+    border-radius: 10px;
+    font-size: 1.8rem;
+  }
+  
+  /* Table Styling */
+  .table thead {
+    background: #43CEA2;
+    color: white;
+  }
+  .table tbody tr {
+    border-bottom: 1px solid #ddd;
+  }
+  .table td, .table th {
     text-align: center;
-    font-size: 100px;
-    color: rgb(250, 250, 250);
-    
-}
+    vertical-align: middle;
+  }
+  
+  /* Add Button */
+  #add-button {
+    background: linear-gradient(to right, #43CEA2, #185A9D);
+    color: white;
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 15px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  #add-button:hover {
+    background: linear-gradient(to right, #185A9D, #43CEA2);
+    color: #fff;
+    transform: scale(1.05);
+  }
+  
