@@ -1,37 +1,60 @@
-header {
-    background-color: #ffffff8a; 
-    color: white; 
-    
-  }
-  body {
-    
-        background: linear-gradient(90deg, #00CB6A, #4DC9FE); /* Gradient from purple to blue */
-        color: white; 
-  }
-  main {
-    padding: 15%;
-  }
-  .btn{
-    padding: 10px;
-  }
-  .text-form{
-    text-align: center;
-    color: #1CCA9F;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-    
-  }
-  .input-group{
-    margin-bottom: 10px;
-    height: 50px;
-    
-  }
-  form{
-    background-color: rgba(240, 248, 255, 0.9);
-    padding: 20px;
-    border-radius: 10px;
-  }
-  .form-check{
-    color: black;
-    margin-left: 3%;
-  }
+
+
+
+img{
+  width: 90px;
+   height: 90px;
+}
+body {
+  
+      background: linear-gradient(90deg, #00CB6A, #4DC9FE); /* Gradient from purple to blue */
+      color: white; 
+}
+main {
+  padding: 15%;
+}
+.btn{
+  padding: 10px;
+}
+.text-form{
+  text-align: center;
+  color: #2aa889;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.input-group{
+  margin-bottom: 10px;
+  height: 50px;
+  
+}
+form{
+  background-color: rgba(240, 248, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+}
+h4{
+  color: #000;
+  margin-left: 3px;
+}
+.form-check{
+  color: black;
+  margin-left: 5%;
+  margin-bottom: -2%;
+}
+
+button{
+  margin-top: 4%;
+}
+@media screen and (max-width: 600px) {
+.btn-primary{
+  font-size: 12px;
+  width: 40%;
+  height: 55px;
+  
+}
+button{
+  margin-left: 33%;
+}
+}
