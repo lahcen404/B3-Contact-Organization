@@ -23,7 +23,12 @@ main {
   font-family: 'Times New Roman', Times, serif;
   
 }
-
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 5px;
+  display: block;
+}
 .input-group{
   margin-bottom: 10px;
   height: 50px;
